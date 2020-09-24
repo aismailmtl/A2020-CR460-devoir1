@@ -25,15 +25,7 @@ dans le sous-réseau "prod-dmz"
 avec un serveur apache2 à jour
   * _le serveur doit être accessible publiquement_
 
-* une instance nommée "mouton"*
-de type "f1-micro"
-CoreOs
-cible "interne"
-dans le sous-réseau "prod-interne"
-  * _cette instance doit être accessible publiquement par ssh_
-  * cette instance doit pouvoir recevoir du  trafic TCP sur les ports "2846", "5462", seulement à partir du sous-réseau "TRAITEMENT"
 
-* une instance nommée "cheval"
 de type "f1-micro"
 CoreOs
 cible "traitement"
