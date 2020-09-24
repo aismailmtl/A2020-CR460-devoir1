@@ -45,6 +45,10 @@ Ubuntu 20.04
 cible "fermier"
 dans le réseau par défaut de votre projet
 
+###############################
+infrastructure
+###############################
+
 #### Réseau
 * Le réseau principal nommé "devoir1"
 * un sous-réseau "prod-interne" "10.0.3.0/24"
